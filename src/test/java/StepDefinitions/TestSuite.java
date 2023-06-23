@@ -72,7 +72,7 @@ public class TestSuite extends Parent {
         } catch (Exception e) {
             logger.error("Sepete ürün ekleme işlemi başarısız,bildirim gelse de sepet boş.\n" + e.getMessage());
             Assertions.fail("Test başarısız,tekrar run etmeniz gerek.");
-            SearchTest();//opsiyonel
+//            SearchTest();//opsiyonel
         }
     }
 
